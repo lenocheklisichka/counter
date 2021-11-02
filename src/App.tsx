@@ -3,7 +3,7 @@ import './App.css';
 import {Counter} from "./Counter/Counter";
 
 function App() {
-    let [counterState, setCounterState] = useState<number>(0);
+    let [counterState, setCounterState] = useState<number>(0)
     let [disabled, setDisabled] = useState<boolean>(true)
 
     const changeCounterState = () => {
